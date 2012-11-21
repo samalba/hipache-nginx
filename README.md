@@ -1,0 +1,17 @@
+Hipache-Nginx (experimental)
+============================
+
+This projects aims to replace the work done in [Hipache](https://github.com/dotcloud/hipache)
+by nginx using the [LUA module](https://github.com/chaoslawful/lua-nginx-module).
+
+The projects only consists of a some configuration files for now but it will
+soon evolve in a ready-to-use scalable proxy solution.
+
+# Nginx requires the LUA module: [installation instructions](http://wiki.nginx.org/HttpLuaModule#Installation)
+# You have to install the [lua-redis client](https://github.com/agentzh/lua-resty-redis).
+
+
+TODO
+----
+
+* Mark the backend as dead in Redis when a backend dies.
