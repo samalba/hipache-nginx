@@ -9,9 +9,3 @@ soon evolve in a ready-to-use scalable proxy solution.
 
 1. Nginx requires the LUA module: [installation instructions](http://wiki.nginx.org/HttpLuaModule#Installation)
 2. You have to install the [lua-redis client](https://github.com/agentzh/lua-resty-redis).
-
-
-TODO
-----
-
-* Mark the backend as dead in Redis when a backend dies.
