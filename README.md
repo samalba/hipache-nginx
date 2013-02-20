@@ -4,7 +4,7 @@ Hipache-Nginx (experimental)
 This projects is an experimental port of [Hipache](https://github.com/dotcloud/hipache)
 to nginx using the [Lua module](https://github.com/chaoslawful/lua-nginx-module).
 
-The projects only consists of a configuration files for now but it will
+The project only consists of configuration files for now but it will
 evolve into a ready-to-use scalable proxy solution.
 
 1. Nginx requires the LUA module: [installation instructions](http://wiki.nginx.org/HttpLuaModule#Installation)
@@ -14,7 +14,7 @@ evolve into a ready-to-use scalable proxy solution.
 Health-checks
 -------------
 
-Dead backends won't be marked as dead in the Redis, they will only
+Dead backends won't be marked as dead in Redis, they will only
 be *announced* as dead. This is on purpose since it's possible to have a delay
 between the dead detection and the announcement with the current
 implementation.
